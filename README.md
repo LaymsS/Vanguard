@@ -1,5 +1,5 @@
 ## Projet Vanguard
-Developped by LaymsS aka Ghourtoule
+Developped by Ghourtoule
 
 ### Introduction
 
