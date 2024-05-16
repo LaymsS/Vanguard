@@ -1,14 +1,4 @@
-<h3>Showcase All Your Projects 🛍️🎇</h3>
- 
-<figure>
-  <img src= "images/screenshot.png" alt="projects screenshot" style="width:100%">
-  <br/>
-  <figcaption>projects screenshot</figcaption>
-</figure>
-
-</div>
-
-## Introducing Projects
+## Projet Vanguard
 
 Present all your projects in style with a super customizable web app! ✨
 
