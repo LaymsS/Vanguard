@@ -1,0 +1,137 @@
+{
+    "keywords_mapping": {
+        "Reconnaissance": [
+            "information gathering",
+            "network manipulation",
+            "remote system discovery",
+            "system information discovery",
+            "user enumeration",
+            "account discovery",
+            "network service scanning",
+            "application layer protocol",
+            "remote services",
+            "data from information repositories",
+            "remote system discovery",
+            "remote services",
+            "network share discovery",
+            "remote access tools",
+            "remote desktop protocol"
+        ],
+        "Resource Development": [
+            "exploit",
+            "exploit public-facing application",
+            "exploitation of remote services",
+            "exploitation for client execution",
+            "exploitation for credential access",
+            "exploitation for defense evasion",
+            "exploitation for discovery",
+            "exploitation for execution",
+            "exploitation for persistence",
+            "exploitation for privilege escalation",
+            "os credential dumping"
+        ],
+        "Initial Access": [
+            "remote code execution",
+            "phishing",
+            "drive-by download",
+            "exploit kit",
+            "spearphishing attachment"
+        ],
+        "Execution": [
+            "command execution",
+            "remote code execution",
+            "execution",
+            "lateral tool transfer",
+            "execution through API",
+            "service execution"
+        ],
+        "Persistence": [
+            "persistence",
+            "persistence mechanism"
+        ],
+        "Privilege Escalation": [
+            "privilege escalation",
+            "exploitation for privilege escalation"
+        ],
+        "Defense Evasion": [
+            "stealth",
+            "evasion",
+            "sandbox evasion",
+            "obfuscated files or information",
+            "deobfuscate/decode files or information",
+            "execution through API",
+            "execution through API"
+        ],
+        "Credential Access": [
+            "brute force",
+            "credential dumping",
+            "credential theft",
+            "two-factor authentication interception"
+        ],
+        "Discovery": [
+            "information gathering",
+            "remote system discovery",
+            "system information discovery",
+            "network service scanning",
+            "application layer protocol",
+            "system network connections discovery",
+            "user enumeration",
+            "account discovery",
+            "remote services",
+            "network share discovery"
+        ],
+        "Lateral Movement": [
+            "lateral movement",
+            "lateral tool transfer",
+            "remote services",
+            "remote access tools",
+            "remote desktop protocol"
+        ],
+        "Collection": [
+            "passive collection",
+            "data from information repositories",
+            "data from network shared drive",
+            "data from cloud storage object",
+            "data from local system",
+            "data staged"
+        ],
+        "Command and Control": [
+            "remote",
+            "remote services",
+            "remote desktop protocol"
+        ],
+        "Exfiltration": [
+            "data exfiltration",
+            "scheduled transfer"
+        ],
+        "Impact": [
+            "denial of service",
+            "malware",
+            "backdoor",
+            "trojan",
+            "keylogger",
+            "rootkit",
+            "worm",
+            "ransomware",
+            "spyware",
+            "botnet",
+            "zero-day exploit",
+            "fileless attack",
+            "adversary simulation",
+            "apt",
+            "cyber espionage",
+            "apt group",
+            "threat actor",
+            "steganography",
+            "code signing abuse",
+            "domain fronting",
+            "supply chain compromise",
+            "exploitation of remote services",
+            "network sniffing",
+            "audio capture",
+            "screen capture",
+            "steal web session cookie",
+            "install root certificate"
+        ]
+    }
+}
