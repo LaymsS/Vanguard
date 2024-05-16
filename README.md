@@ -20,7 +20,7 @@ Toutefois, dans un soucis d'accessibilitée, le rapport préente des graphiques 
 Afin de récupérer le projet sur votre machine:
 
 ```bash
-git clone https://github.com/2kabhishek/projects
+git clone https://github.com/LaymsS/Vanguard.git
 cd projects
 ```
 
