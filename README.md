@@ -1,23 +1,26 @@
 ## Projet Vanguard
-Developped by LaymsS aka Ghourtoule
+Developped by Ghourtoule
 
 ### Introduction
 
-Present all your projects in style with a super customizable web app! ✨
+Bienvenue sur le projet Vanguard.
+Il s'agit d'un projet développé dans le cadre de mon Master en Cybersécurité.
+Cet outil est conçu pour automatiser les tests de pénétration professionnels.
 
-`Projects` uses the GitHub API to list all your GitHub projects in a nice searchable grid.
-Also shows pretty programming icons using `devicons`.
+Il permet de consolider les différents résultats de l'analyse dans un rapport PDF bien structuré, ce qui permet aux professionnels de la sécurité d'examiner et de corriger plus facilement les vulnérabilités.
 
-## Inspiration
+L'application a été développée en python et fonctionne sous KaliLinux, ce qui rend facile d'accès les différents outils.
 
-Needed a way to display all my projects, that should auto update from GitHub
+Bien que Vanguard peut etre utilisé sans connaissance en cybersécurité, l'interprétation des résultats peut être compliquée.
+Toutefois, dans un soucis d'accessibilitée, le rapport préente des graphiques explicatifs permettant de résumer de manière conscise et simple les résultats de l'analyse.
 
-## Getting Projects
 
-To get projects, follow these steps:
+## Bien Commencer
+
+Afin de récupérer le projet sur votre machine:
 
 ```bash
-git clone https://github.com/2kabhishek/projects
+git clone https://github.com/LaymsS/Vanguard.git
 cd projects
 ```
 

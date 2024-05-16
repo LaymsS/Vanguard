@@ -1235,7 +1235,7 @@
                     "port": "80/tcp",
                     "state": "open",
                     "service": "http",
-                    "version": "Apache httpd 2.2.8 ((Ubuntu) DAV/2)",
+                    "version": "Apache httpd 2.2.8 ((Ubuntu) DAV/2)\n|_http-server-header: Apache/2.2.8 (Ubuntu) DAV/2",
                     "vulnerabilities": [
                         {
                             "id": "SSV:72403",
@@ -2323,12 +2323,6 @@
                                     "denial of service"
                                 ]
                             }
-                        },
-                        {
-                            "id": "Apache/2.2.8",
-                            "score": 0.0,
-                            "address": "DAV/2",
-                            "exploit": false
                         }
                     ]
                 }
@@ -7774,7 +7768,7 @@
             ]
         },
         "ssh_file_permission": {
-            "file_permissions": "total 101\ndrwxr-xr-x   2 root root  4096 2012-05-13 23:35 bin\ndrwxr-xr-x   4 root root  1024 2012-05-13 23:36 boot\nlrwxrwxrwx   1 root root    11 2010-04-28 16:26 cdrom -> media/cdrom\ndrwxr-xr-x  14 root root 13480 2024-05-16 12:14 dev\ndrwxr-xr-x  94 root root  4096 2024-05-16 12:14 etc\ndrwxr-xr-x   6 root root  4096 2010-04-16 02:16 home\ndrwxr-xr-x   2 root root  4096 2010-03-16 18:57 initrd\nlrwxrwxrwx   1 root root    32 2010-04-28 16:26 initrd.img -> boot/initrd.img-2.6.24-16-server\ndrwxr-xr-x  13 root root  4096 2012-05-13 23:35 lib\ndrwx------   2 root root 16384 2010-03-16 18:55 lost+found\ndrwxr-xr-x   4 root root  4096 2010-03-16 18:55 media\ndrwxr-xr-x   3 root root  4096 2010-04-28 16:16 mnt\n-rw-------   1 root root 24567 2024-05-16 12:14 nohup.out\ndrwxr-xr-x   2 root root  4096 2010-03-16 18:57 opt\ndr-xr-xr-x 112 root root     0 2024-05-16 12:14 proc\ndrwxr-xr-x  13 root root  4096 2024-05-16 12:14 root\ndrwxr-xr-x   2 root root  4096 2012-05-13 21:54 sbin\n-rw-r-----   1 root root  1207 2024-04-20 15:46 shadow.txt\ndrwxr-xr-x   2 root root  4096 2010-03-16 18:57 srv\ndrwxr-xr-x  12 root root     0 2024-05-16 12:14 sys\ndrwxrwxrwt   4 root root  4096 2024-05-16 13:26 tmp\ndrwxr-xr-x  12 root root  4096 2010-04-28 00:06 usr\ndrwxr-xr-x  14 root root  4096 2010-03-17 10:08 var\nlrwxrwxrwx   1 root root    29 2010-04-28 16:21 vmlinuz -> boot/vmlinuz-2.6.24-16-server"
+            "file_permissions": "total 101\ndrwxr-xr-x   2 root root  4096 2012-05-13 23:35 bin\ndrwxr-xr-x   4 root root  1024 2012-05-13 23:36 boot\nlrwxrwxrwx   1 root root    11 2010-04-28 16:26 cdrom -> media/cdrom\ndrwxr-xr-x  14 root root 13480 2024-05-16 12:14 dev\ndrwxr-xr-x  94 root root  4096 2024-05-16 12:14 etc\ndrwxr-xr-x   6 root root  4096 2010-04-16 02:16 home\ndrwxr-xr-x   2 root root  4096 2010-03-16 18:57 initrd\nlrwxrwxrwx   1 root root    32 2010-04-28 16:26 initrd.img -> boot/initrd.img-2.6.24-16-server\ndrwxr-xr-x  13 root root  4096 2012-05-13 23:35 lib\ndrwx------   2 root root 16384 2010-03-16 18:55 lost+found\ndrwxr-xr-x   4 root root  4096 2010-03-16 18:55 media\ndrwxr-xr-x   3 root root  4096 2010-04-28 16:16 mnt\n-rw-------   1 root root 24567 2024-05-16 12:14 nohup.out\ndrwxr-xr-x   2 root root  4096 2010-03-16 18:57 opt\ndr-xr-xr-x 112 root root     0 2024-05-16 12:14 proc\ndrwxr-xr-x  13 root root  4096 2024-05-16 12:14 root\ndrwxr-xr-x   2 root root  4096 2012-05-13 21:54 sbin\n-rw-r-----   1 root root  1207 2024-04-20 15:46 shadow.txt\ndrwxr-xr-x   2 root root  4096 2010-03-16 18:57 srv\ndrwxr-xr-x  12 root root     0 2024-05-16 12:14 sys\ndrwxrwxrwt   4 root root  4096 2024-05-16 16:55 tmp\ndrwxr-xr-x  12 root root  4096 2010-04-28 00:06 usr\ndrwxr-xr-x  14 root root  4096 2010-03-17 10:08 var\nlrwxrwxrwx   1 root root    29 2010-04-28 16:21 vmlinuz -> boot/vmlinuz-2.6.24-16-server"
         },
         "ssh_user_group": {
             "user_accounts": [

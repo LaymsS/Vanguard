@@ -36,11 +36,10 @@ def report_generation(spider_file_path, vul_file_path, session_name, target_nikt
 
     html_content1 = f"""
     <!DOCTYPE html>
-<html lang="fr">
-<head>
+    <html lang="fr">
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page de Garde</title>
     <style>
         body {{
             background-color: #1E212D;
@@ -50,14 +49,12 @@ def report_generation(spider_file_path, vul_file_path, session_name, target_nikt
             color: #FFFFFF;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombre pour le texte */
         }}
-
         .container {{
             position: relative;
             text-align: center;
             padding: 50px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Ombre pour le fond */
         }}
-
         h1 {{
             font-size: 48px;
             color: #FFFFFF;
@@ -67,14 +64,12 @@ def report_generation(spider_file_path, vul_file_path, session_name, target_nikt
             font-weight: bold;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombre pour le texte */
         }}
-
         p {{
             font-size: 24px;
             color: #CCCCCC;
             margin-bottom: 40px;
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Ombre pour le texte */
         }}
-
         .logo {{
             width: 300px;
             margin-top: 20px;
@@ -89,32 +84,12 @@ def report_generation(spider_file_path, vul_file_path, session_name, target_nikt
             border-top: 100px solid #FFFFFF;
             box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombre pour le triangle */
         }}
-    </style>
-</head>
-<body>
-    <div class="container">
-        <img src="logo.png" alt="Logo de l'entreprise" class="logo">
-        <h1>Rapport Professionnel</h1>
-        <p>Une analyse complète de la sécurité informatique</p>
-    </div>
-    <div class="corner-triangle"></div>
-</body>
-</html>
-
-    """
-    # Générer le code HTML avec le logo au milieu et la date en haut à gauche
-    html_content2 = f"""
-    <!DOCTYPE html>
-    <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <title>Rapport</title>
         <style>
             body {{
                 font-family: Arial, sans-serif;
                 margin: 0;
                 padding: 0;
-                background-color: #ffffff; /* Couleur de fond */
+                background-color: #ffffff;
             }}
             .container {{
                 position: relative;
@@ -163,10 +138,18 @@ def report_generation(spider_file_path, vul_file_path, session_name, target_nikt
             .session {{
                 text-align: right;
             }}
-        </style>
-    </head>
-    <body>
-        <!-- Logo -->
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Report Vanguard Toolbox</h1>
+        <p>Une analyse complète de la sécurité informatique</p>
+    </div>
+    <div class="corner-triangle"></div>
+
+    """
+    html_content2 = f"""
+
         <div class="container">
             <img class="logo" src="{image_to_base64('/home/kali/Downloads/V6/templates/images/logo.jpg')}" alt="Logo">
         </div>
