@@ -8,6 +8,7 @@ from StartPage.modes.Advance.AdvanceActions.niktoScan import exploit_web_server,
 from StartPage.modes.Advance.AdvanceActions.preExploit import search_exploit_available
 from Documents.topdf.pdf_setup import setup_service_rapport
 from Documents.clear_json_report import clear_and_copy_json
+from StartPage.modes.Advance.AdvanceActions.exploit import setup_ssh_exploit
 
 def scan_all(all_email, all_exploit):
     print("scan launched")
@@ -197,7 +198,20 @@ def scan_ip_with_port_service(all_email, all_exploit, ip_name):
         filename = "reports/{}_session/{}.json".format(session_name, session_name)
         search_exploit_available()
         
-        exploit_web_server(ip_name, output_file)
+        with open(f"reports/{session_name}_session/{session_name}.json", 'r') as f:
+            data = json.load(f)
+
+        for host_scan in data.get("NmapScan1", []):
+            for port_info in host_scan.get("ports", []):
+                port_number = port_info.get('port')
+                if "80" in port_number or "443" in port_number:
+                    print("port trouvé pour l'execution nikto")
+                    exploit_web_server(ip_name, output_file)
+                if "22" in port_number:
+                    print("ssh port found, launch bruteforce")
+                    setup_ssh_exploit(ip_name)
+                    break
+        
         nikto_data = parse_nikto_output(output_file)
         update_json_with_nikto_data("reports/{}_session/{}.json".format(session_name, session_name), nikto_data)
 

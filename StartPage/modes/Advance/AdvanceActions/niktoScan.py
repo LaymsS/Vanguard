@@ -3,7 +3,6 @@ import json
 import re
 from StartPage.modes.Advance.AdvanceActions.emailScrapper import extract_emails_from_url
 from Documents.topdf.pdf_setup import setup_rapport
-from StartPage.modes.Advance.AdvanceActions.exploit import setup_ssh_exploit
 
 def exploit_web_server(target, output_file):
     # Définir la commande Nikto avec la cible comme argument et spécifier le chemin du fichier de sortie
@@ -13,7 +12,10 @@ def exploit_web_server(target, output_file):
     open(output_file, 'w').close()
 
     # Exécuter la commande Nikto
-    exit_code = os.system(command)
+    try:
+        exit_code = os.system(command)
+    except ValueError:
+        print(ValueError)
 
 def get_next_nikto_scan_key(existing_keys):
     # Trie les clés existantes pour obtenir le numéro le plus élevé
@@ -59,7 +61,6 @@ def parse_nikto_output(filename):
     
     target = nikto_data["Target Host"]
     extract_emails_from_url(target)
-    setup_ssh_exploit(target)
 
     # Expression régulière pour extraire "/doc/", "/test/", "/icons/" ou "/phpMyAdmin/" à partir de la ligne Directory data
     directory_pattern = re.compile(r"\+ GET (\S+):")

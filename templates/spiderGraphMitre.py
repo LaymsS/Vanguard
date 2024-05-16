@@ -12,6 +12,7 @@ def create_spider_graph_mitre():
         with open(filename, 'r') as file:
             data = json.load(file)
 
+        try:
             # Parcourir les données pour récupérer les valeurs MITRE ATT&CK
             for url_data in data["NmapScan1"]:
                 for port_data in url_data["ports"]:
@@ -23,12 +24,16 @@ def create_spider_graph_mitre():
                                 else:
                                     mitre_attack_matrix[key] += 1
 
-        # Créer les listes categories et values à partir de la matrice
-        categories = list(mitre_attack_matrix.keys())
-        values = list(mitre_attack_matrix.values())
+            # Créer les listes categories et values à partir de la matrice
+            categories = list(mitre_attack_matrix.keys())
+            values = list(mitre_attack_matrix.values())
 
-        # Appel de la fonction create_radar_chart et retour du résultat
-        return create_radar_chart(categories, values, session_name)
+            # Appel de la fonction create_radar_chart et retour du résultat
+            return create_radar_chart(categories, values, session_name)
+        
+        except ValueError:
+            print(ValueError)
+    
 
 
     def get_session_name(session_file):
@@ -37,7 +42,6 @@ def create_spider_graph_mitre():
                 data = json.load(file)
                 session_name = data['sessionName']
             return session_name
-
 
     def create_radar_chart(categories, values, session_name):
         # Création du graphique en toile d'araignée

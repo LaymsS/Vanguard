@@ -18,16 +18,26 @@ def setup_rapport():
             return session_name
         
     session_file = "json/session.json"
-    session_name = get_session_name(session_file)
-    spider_file_path = create_spider_graph_mitre()
-    vul_file_path = create_vuln_graph()
-    email_data = get_email_result(session_name)
-    sensitive_pem_files, other_sensitive_files, software_list, total_software_found, total_user_found, users_list = get_postexploit_result(session_name)
-    ssh_result, username_ssh, password_ssh, leak_ssh, robustness_ssh = get_ssh_result(session_name)
-    target_host, port_host, outdated_app, directory, sensitive, look_up, credentials = get_nikto_result(session_name)
-    report_generation(spider_file_path, vul_file_path, session_name, target_host, port_host, outdated_app, directory, sensitive, look_up, 
-                      credentials, email_data, ssh_result, username_ssh, password_ssh, leak_ssh, robustness_ssh, sensitive_pem_files, 
-                      other_sensitive_files, software_list, total_software_found, total_user_found, users_list)
+    try:
+        session_name = get_session_name(session_file)
+        spider_file_path = create_spider_graph_mitre()
+        vul_file_path = create_vuln_graph()
+        email_data = get_email_result(session_name)
+        sensitive_pem_files, other_sensitive_files, software_list, total_software_found, total_user_found, users_list = get_postexploit_result(session_name)
+        result = get_ssh_result(session_name)
+        if result is not None:
+            ssh_result, username_ssh, password_ssh, leak_ssh, robustness_ssh = result
+        else:
+            ssh_result, username_ssh, password_ssh, leak_ssh, robustness_ssh = None, None, None, None, None
+        target_host, port_host, outdated_app, directory, sensitive, look_up, credentials = get_nikto_result(session_name)
+        report_generation(spider_file_path, vul_file_path, session_name, target_host, port_host, outdated_app, directory, sensitive, look_up, 
+                        credentials, email_data, ssh_result, username_ssh, password_ssh, leak_ssh, robustness_ssh, sensitive_pem_files, 
+                        other_sensitive_files, software_list, total_software_found, total_user_found, users_list)
+    except ValueError:
+        print(ValueError)
+        print("Impossible de récupérer certaine informations via les scans. Impossible de générer le rapport")
+        print("Relancer le scan avec des paramètres différents")
+
 
 def setup_service_rapport():
 
