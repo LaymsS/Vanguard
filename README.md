@@ -1,6 +1,8 @@
 ## Projet Vanguard
 Developped by LaymsS aka Ghourtoule
 
+### Introduction
+
 Present all your projects in style with a super customizable web app! ✨
 
 `Projects` uses the GitHub API to list all your GitHub projects in a nice searchable grid.
