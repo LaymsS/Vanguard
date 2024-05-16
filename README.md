@@ -1,4 +1,5 @@
 ## Projet Vanguard
+Developped by LaymsS aka Ghourtoule
 
 Present all your projects in style with a super customizable web app! ✨
 
