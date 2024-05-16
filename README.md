@@ -15,16 +15,9 @@ Bien que Vanguard peut etre utilisé sans connaissance en cybersécurité, l'int
 Toutefois, dans un soucis d'accessibilitée, le rapport préente des graphiques explicatifs permettant de résumer de manière conscise et simple les résultats de l'analyse.
 
 
-`Projects` uses the GitHub API to list all your GitHub projects in a nice searchable grid.
-Also shows pretty programming icons using `devicons`.
+## Bien Commencer
 
-## Inspiration
-
-Needed a way to display all my projects, that should auto update from GitHub
-
-## Getting Projects
-
-To get projects, follow these steps:
+Afin de récupérer le projet sur votre machine:
 
 ```bash
 git clone https://github.com/2kabhishek/projects
