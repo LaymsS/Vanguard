@@ -1,5 +1,3 @@
-
-
 <h3>Showcase All Your Projects 🛍️🎇</h3>
 
 <figure>
@@ -92,9 +90,3 @@ You tell me!
 Hit the ⭐ button if you found this useful.
 
 ## More Info
-
-<div align="center">
-
-<a href="https://github.com/2KAbhishek/projects">Source</a> | <a href="https://2kabhishek.github.io/projects">Website</a>
-
-</div>
