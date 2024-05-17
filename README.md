@@ -5,7 +5,7 @@ Developped by Ghourtoule
 
 Bienvenue sur le projet Vanguard.
 Il s'agit d'un projet développé dans le cadre de mon Master en Cybersécurité.
-Cet outil est conçu pour automatiser les tests de pénétration professionnels.
+Cet outil est conçu pour automatiser les tests de pénétration de manière professionnels.
 
 Il permet de consolider les différents résultats de l'analyse dans un rapport PDF bien structuré, ce qui permet aux professionnels de la sécurité d'examiner et de corriger plus facilement les vulnérabilités.
 
@@ -17,12 +17,22 @@ Toutefois, dans un soucis d'accessibilitée, le rapport préente des graphiques 
 
 ## Bien Commencer
 
-Afin de récupérer le projet sur votre machine:
+# Prérequis :
 
+
+1. Récupérer le projet sur votre machine:
 ```bash
 git clone https://github.com/LaymsS/Vanguard.git
-cd projects
+cd Vanguard/
 ```
+
+2. Installer les packages requis
+```bash
+pip install -r requirements.txt
+```
+
+
+
 
 ### Setup Your Own Projects
 
