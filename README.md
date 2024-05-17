@@ -132,7 +132,24 @@ Assurez-vous de possèder les applications suivantes sur votre système Linux :
 
 ## Remarques et Améliorations
 
+### Remarques
+
+  - Certaines parties de l'application non pas pu etre développé comme voulu. Principalement la partie sur l'exploitation.
+    - Il était voulu de développer l'exploitation à l'aide de requete API afin de récupérer des informations sur les CVEs trouvées et permettre à la toolbox de créer un `Payload` à utiliser. Malheureusement par manque de temps et de connaissance en dévellopement cela n'a pas pu etre réalisé
+  - Certains bouts de code ne sont pas fonctionnelles dans le cas ou aucune donnée n'est récupéré par le scan, entrainant le crash de l'application ainsi que la non génération du rapport.
+  - La gestion des erreurs n'est pas fini d'etre correctement implémenté dans le code
+  - Implémentation de l'outil SQLMap non fonctionnel du à des problèmes techniques 
+
+### Améliorations
+
+  - Ajout de paramètres pour la personnalisation de l'application
+    - Ajouter le choix de la langue pour l'application
+  - Implémentation de la logique d'exploitation initialement voulue.
+  - Apporter les correctifs nécessaires pour un fonctionnement complet sans erreurs lorsque la toolbox ne récupère pas les informations voulues. 
+
 ## Difficultées Rencontrées
+
+Parmi les différentes difficultées rencontrées lors du développement de la toolbox ont principalement été des difficultées sur l'apprentissage de la récupération et l'ajout de données dans des fichiers `JSON` et leurs utilisations.
 
 ## Licences et Dépendances
 
