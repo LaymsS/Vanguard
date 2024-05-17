@@ -30,11 +30,12 @@ Toutefois, dans un soucis d'accessibilitée, le rapport préente des graphiques 
       ```python
       pip install -r requirements.txt
       ```
+---
 
 ## Usage
 
 1. **Lancer l'application**: Pour lancer l'application, exécuter le  `main.py` script. 
-   ```sh
+   ```python
    python main.py
 
 2. **Naviguer dans les différents menu**: Lors du premier lancement, Vanguard vous demanderas de créer une session. Il vous suffira de rentrer un nom afin d'accéder au menu principal.
