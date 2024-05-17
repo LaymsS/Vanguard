@@ -90,7 +90,18 @@ Vous avez la possibilité de récupérer des informations concernant le domaine 
 Il s'agit d'une fonctionnalitée présente dans le mode Simple.
 
 ### 6. Exploit SSH
-Lors d'une analyse automatisée, si le port 22 est présent ou bien qu'un service utilise SSH, alors la toolbox tentera une analyse par BruteForce sur la machine cible.
+Lors d'une analyse automatisée, si le port 22 est présent ou bien qu'un service utilise SSH, alors la toolbox tentera une analyse par BruteForce sur la machine cibleà l'aide de l'outil Hydra.
 ! ATTENTION ! Cette fonctionnalitées peut affecté les performance de votre système car demande certaines ressources. Le temps d'éxecution de l'analyse peut s'en retrouver grandement impacté.
 Si le test de penetration est fonctionnel, les identifiants seront récupérés et analysé afin d'établir si ceux-ci sont compromis, tant par la robustesse que par leur présence dans certaines base de données.
 En plus de permettre un accès vers la machine cible, cela permettra à Vanguard de proposer pour un futur développement de la toolbox une fonctionnalitée 'RESPONSE' afin de proposer des correctifs.
+
+### 7 Exploit target
+Suite à une connexion distante réussite avec la machine, la toolbox sera en mesure de récupèrer automatiquement différents éléments sur la machine.
+On pourra retrouver dans le rapport, le nombre et le nom des utilisateurs présent sur machine, le nombre et le détails des fichiers de clés, de backup ou de mot de passe chiffré (shadow.txt).
+Vous retrouverez aussi les différentes règles existantes sur le firewall (si elles existes) ainsi que les différentes applications installées (nom, version, emplacement) sur la machine.
+
+#### 8. Rapport Generation
+Suite à l'éxecution d'une analyse sur une cible, la toolbox générera un rapport PDF détaillé et accessible.
+Le rapport sera découpé en deux parties.
+      - La première plus générique propose des graphiques et tableaux d'analyse recapitulatifs des différentes actions qui ont étés prises lors de l'éxécution du scan ainsi que les différentes informations trouvées
+      - La deuxième plus détaillé porpose quant à elle un détails des informations trouvés (liste des CVEs, listes des ports, services, usernames...etc)
