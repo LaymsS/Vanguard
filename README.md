@@ -1,6 +1,11 @@
 # Projet Vanguard
 Developped by Ghourtoule
 
+<p align="center">
+  <img src="vanguard.png" alt="Vanguard"/>
+</p>
+
+
 ## Introduction
 
 Bienvenue sur le projet Vanguard.
