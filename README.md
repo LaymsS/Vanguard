@@ -31,6 +31,11 @@ Toutefois, dans un soucis d'accessibilitée, le rapport préente des graphiques 
 
 ### Prérequis
 
+Assurez-vous de possèder les applications suivantes sur votre système Linux :
+> python 3.11
+> Hydra
+> Nikto
+
 ### Installation
 
 1. **Récupérer le projet sur votre machine**:
