@@ -5,6 +5,13 @@ Developped by Ghourtoule
   <img src="vanguard_git.png" alt="Vanguard"/>
 </p>
 
+## Table of Contents
+- [Introduction](#Introduction)
+- [Installation](#installation)
+  - [Using Git](#option-1-using-git)
+  - [Download ZIP](#option-2-download-zip)
+  - [Download requirements.txt](#download-requirementstxt)
+- [Get Started](#get-started)
 
 ## Introduction
 
