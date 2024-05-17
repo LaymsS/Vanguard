@@ -1,7 +1,7 @@
-## Projet Vanguar
+# Projet Vanguard
 Developped by Ghourtoule
 
-### Introduction
+## Introduction
 
 Bienvenue sur le projet Vanguard.
 Il s'agit d'un projet développé dans le cadre de mon Master en Cybersécurité.
@@ -17,7 +17,7 @@ Toutefois, dans un soucis d'accessibilitée, le rapport préente des graphiques 
 
 ## Bien Commencer
 
-# Prérequis :
+### Prérequis :
 
 
 1. Récupérer le projet sur votre machine:
