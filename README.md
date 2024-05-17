@@ -34,7 +34,7 @@ Toutefois, dans un soucis d'accessibilitée, le rapport préente des graphiques 
 ## Usage
 
 1. **Lancer l'application**: Pour lancer l'application, exécuter le  `main.py` script. 
-         ```sh
+   ```sh
          python main.py
 
 2. **Navigate the Menu**: When you start the application, you'll be taken to a start page, then by clicking on the "Start" button, you'll access the menu. 
