@@ -1,4 +1,4 @@
-# Projet Vanguard
+# Projet M1 SupDeVinci Vanguard
 Developped by Ghourtoule
 
 <p align="center">
