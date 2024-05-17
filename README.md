@@ -11,8 +11,8 @@ Developped by Ghourtoule
 - [Usage](#Usage)
 - [Features](#Features)
 - [Remarques et amélioration](#Remarques-et-Améliorations)
-- [Difficultées rencontrés](#)
-- [Licences et dépendances]
+- [Difficultées rencontrées](#Difficultées-rencontrées)
+- [Licences et dépendances](#Licences-et-dépendances)
 
 ## Introduction
 
@@ -131,3 +131,7 @@ Assurez-vous de possèder les applications suivantes sur votre système Linux :
         - La deuxième plus détaillé porpose quant à elle un détails des informations trouvés (liste des CVEs, listes des ports, services, usernames...etc)
 
 ## Remarques et Améliorations
+
+## Difficultées Rencontrées
+
+## Licences et Dépendances
