@@ -31,6 +31,7 @@ Toutefois, dans un soucis d'accessibilitée, le rapport préente des graphiques 
 
 ### Prérequis
 
+### Installation
 
 1. **Récupérer le projet sur votre machine**:
       ```python
