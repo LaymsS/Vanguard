@@ -125,7 +125,7 @@ Assurez-vous de possèder les applications suivantes sur votre système Linux :
   - Vous retrouverez aussi les différentes règles existantes sur le firewall (si elles existes) ainsi que les différentes applications installées (nom, version, emplacement) sur la machine.
 
   ### 8. Analyse MITRE ATT&CK
-  - Vanguard filtres les différentes CVEs trouvées sur la / les cibles et les classifies celon les tactiques MITRE ATT&CK.
+  - Vanguard filtres les différentes CVEs trouvées sur la / les cibles et les classifies celon les tactiques `MITRE ATT&CK`.
   - Bien qu'il s'agisse d'un classement non précis car le script à été réalisé à la main sans dépendances, cela permet de générer un graphique mettant en lumière les principales failles et techniques qui pourraient etre utilisé par un attaquant sur le SI cible.
   
   
