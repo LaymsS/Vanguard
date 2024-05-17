@@ -18,21 +18,21 @@ Developped by Ghourtoule
 
 Bienvenue sur le projet Vanguard.
 Il s'agit d'un projet développé dans le cadre de mon Master en Cybersécurité.
-Cet outil est conçu pour automatiser les tests de pénétration de manière professionnels.
+Cet outil est conçu pour automatiser les tests de pénétration de manière professionnelles.
 
 Il permet de consolider les différents résultats de l'analyse dans un rapport PDF bien structuré, ce qui permet aux professionnels de la sécurité d'examiner et de corriger plus facilement les vulnérabilités.
 
-L'application a été développée en python et fonctionne sous KaliLinux, ce qui rend facile d'accès les différents outils.
+L'application a été développée en python et fonctionne sous Kali Linux, ce qui rend faciles d'accès les différents outils.
 
-Bien que Vanguard peut etre utilisé sans connaissance en cybersécurité, l'interprétation des résultats peut être compliquée.
-Toutefois, dans un soucis d'accessibilitée et de compréhension, le rapport présente des graphiques explicatifs permettant de résumer de manière conscise et simple les résultats de l'analyse.
+Bien que Vanguard pût être utilisé sans connaissance en cybersécurité, l'interprétation des résultats peut être compliquée.
+Toutefois, dans un souci d'accessibilités et de compréhension, le rapport présente des graphiques explicatifs permettant de résumer de manière concise et simple les résultats de l'analyse.
 
 
 ## Bien Commencer
 
 ### Prérequis
 
-Assurez-vous de possèder les applications suivantes sur votre système Linux :
+Assurez-vous de posséder les applications suivantes sur votre système Linux :
 
 > python 3.11
 
@@ -66,17 +66,17 @@ Assurez-vous de possèder les applications suivantes sur votre système Linux :
 
       - **START**: L'option "Start" vous permettra de choisir entre deux mode d'éxecution de la toolbox
         
-        - **SIMPLE**: est uu mode vous laissant le choix sur l'écution de vos actions. Toutefois, celle-ci ne sont pas automatisés. Vous n'avez pas le choix sur l'éxecution de plusieurs actions de manière automatisé. Elles sont réalisées au cas par cas. Ceux mode à été configuré dans le cas ou vous ne souhaitiez pas réalisé un scan complet mais plutot réaliser une recherche spécifique.
+        - **SIMPLE**: est uu mode vous laissant le choix sur l'éxécution de vos actions. Toutefois, celles-ci ne sont pas automatisés. Vous n'avez pas le choix sur l'éxecution de plusieurs actions de manière automatisé. Elles sont réalisées au cas par cas. Ceux mode a été configuré dans le cas ou vous ne souhaitiez pas réaliser un scan complet mais plutot réaliser une recherche spécifique.
           
-        - **ADVANCE** : est un mode plus avancé. Il à été réalisé dans une optique de simplicité de séléction des différents choix de configuration. Ce mode permet l'éxecution d'une analyse complete celon votre configuration.
+        - **ADVANCE** : est un mode plus avancé. Il a été réalisé dans une optique de simplicité de sélection des différents choix de configuration. Ce mode permet l'exécution d'une analyse complète selon votre configuration.
           
-      - **DOCUMENTS**: Cette option vous permettra d'afficher une liste des différents rapports que vous avez réalisé dans la session, qu'il s'agisse de ceux du mode simple ou bien du mode Advance. Vous pourrez aussi les ouvrir directement depuis l'application.
+      - **DOCUMENTS**: Cette option vous permettra d'afficher une liste des différents rapports que vous avez réalisée dans la session, qu'il s'agisse de ceux du mode simple ou bien du mode Advance. Vous pourrez aussi les ouvrir directement depuis l'application.
         
       - **PROFIL**: EN COURS DE DEVELOPPEMENT
         
-      - **SETTINGS**: Cette option vous permet de personnaliser l'application afin qu'elle vous soit la plus accessible possible celon vos besoins ou vos préférences. Pour le moment vous pouvez personnaliser le thème de la toolbox. A therme cette option vous permettra de choisir entre différentes langues ce qui sera un très gros plus quan a la l'accessibilité de l'application et de son efficacité à générer des rapports.
+      - **SETTINGS**: Cette option vous permet de personnaliser l'application afin qu'elle vous soit la plus accessible possible celon vos besoins ou vos préférences. Pour le moment vous pouvez personnaliser le thème de la toolbox. A therme cette option vous permettra de choisir entre différentes langues ce qui sera un très gros plus quant à l'accessibilité de l'application et de son efficacité à générer des rapports.
         
-      - **NEW SESSION** : Vous permettra de fermer la session actuel et dans créer une nouvelle. Cela permet de mieux ségmenter vos analyse ou meme vos mission dans la meme application. 
+      - **NEW SESSION** : Vous permettra de fermer la session actuelle et d'en créer une nouvelle. Cela permet de mieux segmenter vos analyses ou meme vos missions dans la meme application. 
 
 
 1. **SIMPLE MODE**
@@ -94,35 +94,35 @@ Assurez-vous de possèder les applications suivantes sur votre système Linux :
 ## Features
 
   ### 1. Nmap Scan
-  - La toolbox Vanguard est utilisé avec Nmap afin de réaliser un scan du réseau / d'une IP ou d'un domaine et de récupérer des informations à propos des différents ports sur la/les cibles, ainsi que les différents services et leur version.
-  - Le scan Nmap est associé à des scripts `Vulners` afin de récupérer les différentes CVEs (Common Vulnerabilities and Exposures) trouvées parmis les ports et services.
+  - La toolbox Vanguard est utilisée avec Nmap afin de réaliser un scan du réseau / d'une IP ou d'un domaine et de récupérer des informations à propos des différents ports sur la/les cibles, ainsi que les différents services et leur version.
+  - Le scan Nmap est associé à des scripts `Vulners` afin de récupérer les différentes CVEs (Common Vulnerabilities and Exposures) trouvées parmi les ports et services.
   
   ### 2. Nikto Scan
-  - Le scan `Nikto` est utilisé afin de scanner le web-server de(s) cibles qui ont étés configurées ou trouvées.
-  - En effet, Nikto est un outil open-source permettant de réaliser des tests sur les serveurs webs et de trouver de multiple éléments tels que les versions dépassées, des problèmes spécifiques à une version, des fichiers ou dossiers accessibles contenant des données potentiellement dangereuse...
+  - Le scan `Nikto` est utilisé afin de scanner le web-serveur de(s) cibles qui ont été configurées ou trouvées.
+  - En effet, Nikto est un outil open source permettant de réaliser des tests sur les serveurs web et de trouver de multiples éléments tels que les versions dépassées, des problèmes spécifiques à une version, des fichiers ou dossiers accessibles contenant des données potentiellement dangereuse...
   
   ### 3. Password Analyser / Leak Analyser
-  - Vanguard permet de vérifier la robustesse d'un mot de passe que vous lui communiqueré, d'une liste présnete dans un fichier CSV ou meme qu'il aurait trouvé lors d'un scan automatique.
-  - La toolbox permettra églement de vérifier si ce mot de passe est présent dans des leaks de bases de données
+  - Vanguard permet de vérifier la robustesse d'un mot de passe que vous lui communiquerait, d'une liste présente dans un fichier CSV ou meme qu'il aurait trouvé lors d'un scan automatique.
+  - La toolbox permettra également de vérifier si ce mot de passe est présent dans des leaks de bases de données
   
   ### 4. Email Scrapper / Email Analyser
-  - La toolbox possède une fonction complémentaire souvent associé à la `3. (Password / Leak)`, celle de pouvoir vérifier si un email est présent dans des bases de données qui auraient leak.
-  - Lors d'éxécution d'une analyse Advance, Vanguard vérifirera sur les différentes pages du / des serveurs web, si des emails sont présent et vérifirera si ceux-ci sont comprmis.
+  - La toolbox possède une fonction complémentaire souvent associée à la `3. (Password / Leak)`, celle de pouvoir vérifier si un email est présent dans des bases de données qui auraient leak.
+  - Lors d'éxécutions d'une analyse Advance, Vanguard vérifira sur les différentes pages du / des serveurs web, si des emails sont présents et vérifira si ceux-ci sont compromis.
   
   ### 5. Subdomain Enumeration
-  - Vous avez la possibilité de récupérer des informations concernant le domaine principale ainsi qu'énumérer tous les sous-domaines associés au domaine principale.
+  - Vous avez la possibilité de récupérer des informations concernant le domaine principal ainsi qu'énumérer tous les sous-domaines associés au domaine principal.
   - Il s'agit d'une fonctionnalitée présente dans le mode Simple.
   
   ### 6. Exploit SSH
-  - Lors d'une analyse automatisée, si le port 22 est présent ou bien qu'un service utilise SSH, alors la toolbox tentera une analyse par BruteForce sur la machine cibleà l'aide de l'outil Hydra.
-  ! ATTENTION ! Cette fonctionnalitées peut affecté les performance de votre système car demande certaines ressources. Le temps d'éxecution de l'analyse peut s'en retrouver grandement impacté.
-  - Si le test de penetration est fonctionnel, les identifiants seront récupérés et analysé afin d'établir si ceux-ci sont compromis, tant par la robustesse que par leur présence dans certaines base de données.
-  - En plus de permettre un accès vers la machine cible, cela permettra à Vanguard de proposer pour un futur développement de la toolbox une fonctionnalitée 'RESPONSE' afin de proposer des correctifs.
+  - Lors d'une analyse automatisée, si le port 22 est présent ou bien qu'un service utilise SSH, alors la toolbox tentera une analyse par BruteForce sur la machine cible à l'aide de l'outil Hydra.
+  ! ATTENTION ! Cette fonctionnalité peut affecter les performances de votre système car demande certaines ressources. Le temps d'exécution de l'analyse peut s'en retrouver grandement impacté.
+  - Si le test de pénétration est fonctionnel, les identifiants seront récupérés et analysés afin d'établir si ceux-ci sont compromis, tant par la robustesse que par leur présence dans certaines bases de données.
+  - En plus de permettre un accès vers la machine cible, cela permettra à Vanguard de proposer pour un futur développement de la toolbox une fonctionnalitée `RESPONSE` afin de proposer des correctifs.
   
   ### 7. Exploit target
-  - Suite à une connexion distante réussite avec la machine, la toolbox sera en mesure de récupèrer automatiquement différents éléments sur la machine.
-  - On pourra retrouver dans le rapport, le nombre et le nom des utilisateurs présent sur machine, le nombre et le détails des fichiers de clés, de backup ou de mot de passe chiffré (shadow.txt).
-  - Vous retrouverez aussi les différentes règles existantes sur le firewall (si elles existes) ainsi que les différentes applications installées (nom, version, emplacement) sur la machine.
+  - Suite à une connexion distante réussite avec la machine, la toolbox sera en mesure de récupérer automatiquement différents éléments sur la machine.
+  - On pourra retrouver dans le rapport, le nombre et les noms des utilisateurs présent sur machine, le nombre et le détail des fichiers de clés, de backup ou de mot de passe chiffré (shadow.txt).
+  - Vous retrouverez aussi les différentes règles existant sur le firewall (si elles existent) ainsi que les différentes applications installées (nom, version, emplacement) sur la machine.
 
   ### 8. Analyse MITRE ATT&CK
   - Vanguard filtres les différentes CVEs trouvées sur la / les cibles et les classifies celon les tactiques `MITRE ATT&CK`.
