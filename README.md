@@ -21,10 +21,10 @@ Toutefois, dans un soucis d'accessibilitée, le rapport préente des graphiques 
 
 
 1. **Récupérer le projet sur votre machine**:
-  ```bash
-  git clone https://github.com/LaymsS/Vanguard.git
-  cd Vanguard/
-  ```
+      ```bash
+      git clone https://github.com/LaymsS/Vanguard.git
+      cd Vanguard/
+      ```
 
 2. Installer les packages requis
   ```bash
