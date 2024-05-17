@@ -80,3 +80,13 @@ En effet, Nikto est un outil open-source permettant de réaliser des tests sur l
 ### 3. Password Analyser / Leak Analyser
 Vanguard permet de vérifier la robustesse d'un mot de passe que vous lui communiqueré, d'une liste présnete dans un fichier CSV ou meme qu'il aurait trouvé lors d'un scan automatique.
 La toolbox permettra églement de vérifier si ce mot de passe est présent dans des leaks de bases de données
+
+### 4. Email Scrapper / Email Analyser
+La toolbox possède une fonction complémentaire souvent associé à la '3.', celle de pouvoir vérifier si un email est présent dans des bases de données qui auraient leak.
+Lors d'éxécution d'une analyse Advance, Vanguard vérifirera sur les différentes pages du / des serveurs web, si des emails sont présent et vérifirera si ceux-ci sont comprmis.
+
+### 5. Subdomain Enumeration
+Vous avez la possibilité de récupérer des informations concernant le domaine principale ainsi qu'énumérer tous les sous-domaines associés au domaine principale.
+Il s'agit d'une fonctionnalitée présente dans le mode Simple.
+
+### 6. Exploit SSH
