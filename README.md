@@ -20,7 +20,7 @@ Toutefois, dans un soucis d'accessibilitée, le rapport préente des graphiques 
 ### Prérequis
 
 
-1. Récupérer le projet sur votre machine:
+1. **Récupérer le projet sur votre machine**:
   ```bash
   git clone https://github.com/LaymsS/Vanguard.git
   cd Vanguard/
