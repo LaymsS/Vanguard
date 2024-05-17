@@ -92,8 +92,8 @@ Assurez-vous de possèder les applications suivantes sur votre système Linux :
 ## Features
 
   ### 1. Nmap Scan
-  La toolbox Vanguard est utilisé avec Nmap afin de réaliser un scan du réseau / d'une IP ou d'un domaine et de récupérer des informations à propos des différents ports sur la/les cibles, ainsi que les différents services et leur version.
-  Le scan Nmap est associé à des scripts `Vulners` afin de récupérer les différentes CVEs (Common Vulnerabilities and Exposures) trouvées parmis les ports et services.
+  - La toolbox Vanguard est utilisé avec Nmap afin de réaliser un scan du réseau / d'une IP ou d'un domaine et de récupérer des informations à propos des différents ports sur la/les cibles, ainsi que les différents services et leur version.
+  - Le scan Nmap est associé à des scripts `Vulners` afin de récupérer les différentes CVEs (Common Vulnerabilities and Exposures) trouvées parmis les ports et services.
   
   ### 2. Nikot Scan
   Le scan `Nikto` est utilisé afin de scanner le web-server de(s) cibles qui ont étés configurées ou trouvées.
