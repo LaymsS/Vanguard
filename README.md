@@ -2,7 +2,7 @@
 Developped by Ghourtoule
 
 <p align="center">
-  <img src="vanguard.png" alt="Vanguard"/>
+  <img src="vanguard_git.png" alt="Vanguard"/>
 </p>
 
 
