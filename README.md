@@ -168,4 +168,5 @@ Parmi les différentes difficultées rencontrées lors du développement de la t
   - `PIL = Licence : Historical Permission Notice and Disclaimer (HPND)`
   - `Plotly = Licence : MIT License`
   - `BeautifulSoup = Licence : MIT License`
+  - `Matplotlib = Licence : BSD Licence`
 
