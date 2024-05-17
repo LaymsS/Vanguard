@@ -10,8 +10,9 @@ Developped by Ghourtoule
 - [Bien Commencer](#Bien-commencer)
 - [Usage](#Usage)
 - [Features](#Features)
-- [Remarques](#)
-- [Axe d'amelioration](#)
+- [Remarques et amélioration](#Remarques-et-Améliorations)
+- [Difficultées rencontrés](#)
+- [Licences et dépendances]
 
 ## Introduction
 
@@ -128,3 +129,5 @@ Assurez-vous de possèder les applications suivantes sur votre système Linux :
   - Le rapport sera découpé en deux parties.
         - La première plus générique propose des graphiques et tableaux d'analyse recapitulatifs des différentes actions qui ont étés prises lors de l'éxécution du scan ainsi que les différentes informations trouvées
         - La deuxième plus détaillé porpose quant à elle un détails des informations trouvés (liste des CVEs, listes des ports, services, usernames...etc)
+
+## Remarques et Améliorations
