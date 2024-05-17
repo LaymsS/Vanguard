@@ -136,5 +136,8 @@ Assurez-vous de possèder les applications suivantes sur votre système Linux :
 
 ## Licences et Dépendances
 
-### 1. Listes des licences
+### 1. Liste des licences
+  - 
+
+### 2. Liste des dépendances
   - 
