@@ -158,12 +158,12 @@ Parmi les différentes difficultées rencontrées lors du développement de la t
 
 ## Licences et Dépendances
 
-  - Hydra = Licence : GNU Affero General Public License (AGPL) v3
-  - Paramiko = Licence : GNU Lesser General Public License (LGPL)
-  - Pillow = Licence : Historical Permission Notice and Disclaimer (HPND)
-  - Nmap = Licence : GNU General Public License (GPL) v2
-  - Weasyprint = Licence : BSD License
-  - Password_strength = Licence : MIT License
-  - Enzoic = Licence : MIT License
-  - PIL = Licence : Historical Permission Notice and Disclaimer (HPND)
+  - `Hydra = Licence : GNU Affero General Public License (AGPL) v3`
+  - `Paramiko = Licence : GNU Lesser General Public License (LGPL)`
+  - `Pillow = Licence : Historical Permission Notice and Disclaimer (HPND)`
+  - `Nmap = Licence : GNU General Public License (GPL) v2`
+  - `Weasyprint = Licence : BSD License`
+  - `Password_strength = Licence : MIT License`
+  - `Enzoic = Licence : MIT License`
+  - `PIL = Licence : Historical Permission Notice and Disclaimer (HPND)`
 
