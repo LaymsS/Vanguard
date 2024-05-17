@@ -104,7 +104,7 @@ Assurez-vous de possèder les applications suivantes sur votre système Linux :
   La toolbox permettra églement de vérifier si ce mot de passe est présent dans des leaks de bases de données
   
   ### 4. Email Scrapper / Email Analyser
-  La toolbox possède une fonction complémentaire souvent associé à la '3.', celle de pouvoir vérifier si un email est présent dans des bases de données qui auraient leak.
+  La toolbox possède une fonction complémentaire souvent associé à la `3. (Password / Leak)`, celle de pouvoir vérifier si un email est présent dans des bases de données qui auraient leak.
   Lors d'éxécution d'une analyse Advance, Vanguard vérifirera sur les différentes pages du / des serveurs web, si des emails sont présent et vérifirera si ceux-ci sont comprmis.
   
   ### 5. Subdomain Enumeration
