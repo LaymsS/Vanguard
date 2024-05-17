@@ -41,7 +41,7 @@ Toutefois, dans un soucis d'accessibilitée, le rapport préente des graphiques 
 
 3.  **Menu principal** : Le menu princial est composé de différentes options :
       - **Start**: L'option "Start" vous permettra de choisir entre deux mode d'éxecution de la toolbox
-              - **SimpleMode**: est uun mode vous laissant le choix sur l'écution de vos actions. Toutefois, celle-ci ne sont pas automatisés. Vous n'avez pas le choix sur l'éxecution de plusieurs actions de manière automatisé. Elles sont réalisées au cas par cas. Ceux mode à été configuré dans le cas ou vous ne souhaitiez pas réalisé un scan complet mais plutot réaliser une recherche spécifique.
+            - **SimpleMode**: est uun mode vous laissant le choix sur l'écution de vos actions. Toutefois, celle-ci ne sont pas automatisés. Vous n'avez pas le choix sur l'éxecution de plusieurs actions de manière automatisé. Elles sont réalisées au cas par cas. Ceux mode à été configuré dans le cas ou vous ne souhaitiez pas réalisé un scan complet mais plutot réaliser une recherche spécifique.
               - **AdvanceMode** : est un mode plus avancé. Il à été réalisé dans une optique de simplicité de séléction des différents choix de configuration. Ce mode permet l'éxecution d'une analyse complete celon votre configuration.
     3.2 **Documents**: Cette option vous permettra d'afficher une liste des différents rapports que vous avez réalisé dans la session, qu'il s'agisse de ceux du mode simple ou bien du mode Advance. Vous pourrez aussi les ouvrir directement depuis l'application.
     3.3 **Profil**: EN COURS DE DEVELOPPEMENT
