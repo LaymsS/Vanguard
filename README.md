@@ -158,8 +158,4 @@ Parmi les différentes difficultées rencontrées lors du développement de la t
 
 ## Licences et Dépendances
 
-### 1. Liste des licences
-  - 
-
-### 2. Liste des dépendances
   - 
