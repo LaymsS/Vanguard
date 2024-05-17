@@ -21,13 +21,13 @@ Toutefois, dans un soucis d'accessibilitée, le rapport préente des graphiques 
 
 
 1. **Récupérer le projet sur votre machine**:
-      ```bash
+      ```python
       git clone https://github.com/LaymsS/Vanguard.git
       cd Vanguard/
       ```
 
 2. **Installer les packages requis**:
-      ```bash
+      ```python
       pip install -r requirements.txt
       ```
 
