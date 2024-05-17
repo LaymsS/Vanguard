@@ -119,12 +119,17 @@ Assurez-vous de possèder les applications suivantes sur votre système Linux :
   - Si le test de penetration est fonctionnel, les identifiants seront récupérés et analysé afin d'établir si ceux-ci sont compromis, tant par la robustesse que par leur présence dans certaines base de données.
   - En plus de permettre un accès vers la machine cible, cela permettra à Vanguard de proposer pour un futur développement de la toolbox une fonctionnalitée 'RESPONSE' afin de proposer des correctifs.
   
-  ### 7 Exploit target
+  ### 7. Exploit target
   - Suite à une connexion distante réussite avec la machine, la toolbox sera en mesure de récupèrer automatiquement différents éléments sur la machine.
   - On pourra retrouver dans le rapport, le nombre et le nom des utilisateurs présent sur machine, le nombre et le détails des fichiers de clés, de backup ou de mot de passe chiffré (shadow.txt).
   - Vous retrouverez aussi les différentes règles existantes sur le firewall (si elles existes) ainsi que les différentes applications installées (nom, version, emplacement) sur la machine.
+
+  ### 8. Analyse MITRE ATT&CK
+  - Vanguard filtres les différentes CVEs trouvées sur la / les cibles et les classifies celon les tactiques MITRE ATT&CK.
+  - Bien qu'il s'agisse d'un classement non précis car le script à été réalisé à la main sans dépendances, cela permet de générer un graphique mettant en lumière les principales failles et techniques qui pourraient etre utilisé par un attaquant sur le SI cible.
   
-  #### 8. Rapport Generation
+  
+  #### 9. Rapport Generation
   - Suite à l'éxecution d'une analyse sur une cible, la toolbox générera un rapport PDF détaillé et accessible.
   - Le rapport sera découpé en deux parties.
         - La première plus générique propose des graphiques et tableaux d'analyse recapitulatifs des différentes actions qui ont étés prises lors de l'éxécution du scan ainsi que les différentes informations trouvées
@@ -135,7 +140,7 @@ Assurez-vous de possèder les applications suivantes sur votre système Linux :
 ### Remarques
 
   - Certaines parties de l'application non pas pu etre développé comme voulu. Principalement la partie sur l'exploitation.
-    - Il était voulu de développer l'exploitation à l'aide de requete API afin de récupérer des informations sur les CVEs trouvées et permettre à la toolbox de créer un `Payload` à utiliser. Malheureusement par manque de temps et de connaissance en dévellopement cela n'a pas pu etre réalisé
+    - Il était voulu de développer l'exploitation à l'aide de requete API afin de récupérer des informations sur les CVEs trouvées et permettre à la toolbox de créer un `Payload` à utiliser sur la cible. Malheureusement par manque de temps et de connaissance en dévellopement cela n'a pas pu etre réalisé
   - Certains bouts de code ne sont pas fonctionnelles dans le cas ou aucune donnée n'est récupéré par le scan, entrainant le crash de l'application ainsi que la non génération du rapport.
   - La gestion des erreurs n'est pas fini d'etre correctement implémenté dans le code
   - Implémentation de l'outil SQLMap non fonctionnel du à des problèmes techniques 
