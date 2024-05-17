@@ -25,7 +25,7 @@ Il permet de consolider les différents résultats de l'analyse dans un rapport 
 L'application a été développée en python et fonctionne sous KaliLinux, ce qui rend facile d'accès les différents outils.
 
 Bien que Vanguard peut etre utilisé sans connaissance en cybersécurité, l'interprétation des résultats peut être compliquée.
-Toutefois, dans un soucis d'accessibilitée, le rapport préente des graphiques explicatifs permettant de résumer de manière conscise et simple les résultats de l'analyse.
+Toutefois, dans un soucis d'accessibilitée et de compréhension, le rapport présente des graphiques explicatifs permettant de résumer de manière conscise et simple les résultats de l'analyse.
 
 
 ## Bien Commencer
