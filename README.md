@@ -26,10 +26,10 @@ Toutefois, dans un soucis d'accessibilitée, le rapport préente des graphiques 
       cd Vanguard/
       ```
 
-2. Installer les packages requis
-  ```bash
-  pip install -r requirements.txt
-  ```
+2. **Installer les packages requis**:
+      ```bash
+      pip install -r requirements.txt
+      ```
 
 
 
