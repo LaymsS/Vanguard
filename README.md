@@ -90,3 +90,7 @@ Vous avez la possibilité de récupérer des informations concernant le domaine 
 Il s'agit d'une fonctionnalitée présente dans le mode Simple.
 
 ### 6. Exploit SSH
+Lors d'une analyse automatisée, si le port 22 est présent ou bien qu'un service utilise SSH, alors la toolbox tentera une analyse par BruteForce sur la machine cible.
+! ATTENTION ! Cette fonctionnalitées peut affecté les performance de votre système car demande certaines ressources. Le temps d'éxecution de l'analyse peut s'en retrouver grandement impacté.
+Si le test de penetration est fonctionnel, les identifiants seront récupérés et analysé afin d'établir si ceux-ci sont compromis, tant par la robustesse que par leur présence dans certaines base de données.
+En plus de permettre un accès vers la machine cible, cela permettra à Vanguard de proposer pour un futur développement de la toolbox une fonctionnalitée 'RESPONSE' afin de proposer des correctifs.
