@@ -135,3 +135,6 @@ Assurez-vous de possèder les applications suivantes sur votre système Linux :
 ## Difficultées Rencontrées
 
 ## Licences et Dépendances
+
+### 1. Listes des licences
+  - 
