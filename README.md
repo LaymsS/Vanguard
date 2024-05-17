@@ -166,4 +166,6 @@ Parmi les différentes difficultées rencontrées lors du développement de la t
   - `Password_strength = Licence : MIT License`
   - `Enzoic = Licence : MIT License`
   - `PIL = Licence : Historical Permission Notice and Disclaimer (HPND)`
+  - `Plotly = Licence : MIT License`
+  - `BeautifulSoup = Licence : MIT License`
 
