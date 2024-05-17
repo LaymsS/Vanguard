@@ -56,3 +56,16 @@ Toutefois, dans un soucis d'accessibilitée, le rapport préente des graphiques 
         
       - **NEW SESSION** : Vous permettra de fermer la session actuel et dans créer une nouvelle. Cela permet de mieux ségmenter vos analyse ou meme vos mission dans la meme application. 
 
+
+1. **SIMPLE MODE**
+   IMAGE WINDOWS SIMPLE MODE
+
+   DESCRIPTION DE SIMPLE MODE
+
+2. **ADVANCE MODE**
+   IMAGE WINDOWS ADVANCE MODE
+
+   DESCRIPTION DE ADVANCE MODE
+
+
+
