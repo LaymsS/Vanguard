@@ -76,4 +76,7 @@ Le scan Nmap est associé à des scripts 'Vulners' afin de récupérer les diff�
 ### 2. Nikot Scan
 Le scan 'Nikot' est utilisé afin de scanner le web-server de(s) cibles qui ont étés configurées ou trouvées.
 En effet, Nikto est un outil open-source permettant de réaliser des tests sur les serveurs webs et de trouver de multiple éléments tels que les versions dépassées, des problèmes spécifiques à une version, des fichiers ou dossiers accessibles contenant des données potentiellement dangereuse...
-      - N
+
+### 3. Password Analyser / Leak Analyser
+Vanguard permet de vérifier la robustesse d'un mot de passe que vous lui communiqueré, d'une liste présnete dans un fichier CSV ou meme qu'il aurait trouvé lors d'un scan automatique.
+La toolbox permettra églement de vérifier si ce mot de passe est présent dans des leaks de bases de données
